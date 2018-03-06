@@ -1,0 +1,11 @@
+.whereToPage {
+  ul {
+    list-style-type: none;
+  }
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f06c';
+    margin:0 6px 0 0;
+    color: $green;
+  }
+}

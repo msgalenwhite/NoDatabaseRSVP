@@ -1,0 +1,80 @@
+body {
+  background-color: $dark-sangria;
+  font-size: 1.3em;
+  font-family: 'Karma', serif;
+}
+
+.page {
+  padding: 30px;
+  margin: 20px;
+  background-color: $light-nude;
+  min-height: 100vh;
+}
+
+// CHANGE HIGHLIGHT COLOR FOR TEXT
+::selection {
+  background: lighten($light-sangria, 30%); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: lighten($light-sangria, 30%); /* Gecko Browsers */
+}
+
+// TEXT
+.heading {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Merienda', cursive;
+  color: $sangria;
+}
+
+.title {
+  font-size: 1.3em;
+  font-weight: normal;
+  font-family: 'Merienda', cursive;
+}
+
+.error {
+  font-style: italic;
+  color: $brick;
+}
+
+.center {
+  text-align: center;
+}
+.date {
+  color: $sangria;
+}
+
+// BUTTONS
+.button {
+  background-color: $light-sangria;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 7px 10px 3px 10px;
+  border: none;
+  font-size: 18px;
+  color: $light-nude;
+  font-family: 'Karma', serif;
+}
+
+.button:hover {
+  background-color: $sangria;
+}
+
+// LINKS
+a {
+color: $sangria;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+  font-size: 1.1em;
+}
+
+// SIGNATURE
+.signature {
+  text-align: right;
+  font-size: 2em;
+  font-family: 'Merienda', cursive;
+  color: $sangria;
+}
