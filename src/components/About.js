@@ -11,7 +11,7 @@ const About = props => {
       <p>If you have any comments/suggestions, let me know!  I've set up a blog to explain my journey, so feel free to check it out or leave comments about this site on any of the posts.</p>
       <p>The site is:</p>
       <div className='center'>
-        <a href='http://galencancode.blogspot.com/'>
+        <a href='http://galencancode.blogspot.com/' className='blog'>
           Galen Can Code
         </a>
       </div>
