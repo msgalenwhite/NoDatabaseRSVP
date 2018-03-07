@@ -12,7 +12,6 @@ const Invitation = props => {
       <span className="brideandgroom">Christopher Francis Bimbo</span><br/>
       Saturday, the 13th of October<br/>
       (two thousand and eighteen)<br/>
-      at [TIME]<br/>
     </div>
 
   let reception =
