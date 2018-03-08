@@ -51,6 +51,10 @@ const HotelInfo = props => {
         <a href='http://castlemanorinn.com/'><img src='https://i.imgur.com/44n87rO.png' alt='Castle Manor Inn Logo' className='castleLogo'/></a>
         <p>The inn is ours for the weekend, and includes a restaurant as well as a limited supply of available rooms.  Please give Laura a call at (978) 515-7386 as soon as you can to make sure there is a room available.</p>
       </div>
+      <div className='importantNote'>
+        <p>We have not sent out invitations yet, but they will be coming!  Please do not book a room unless you have received an invitation or confirmed with Galen that you are on the list.</p>
+        <p>If you were not invited, it was not meant as a slight!  We fell in love with the Castle Manor Inn at first sight, but the location does limit our guestlist.</p>
+      </div>
       <div>
         <div className='title'>Booking a Room Elsewhere</div>
         <p>We wanted to share the most beautiful time of year in New England with all of our family and friends; unfortunately, this means that hotels will fill quickly.  The good news is that there are plenty of local hotels.</p>

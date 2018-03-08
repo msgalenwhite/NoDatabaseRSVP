@@ -12,7 +12,7 @@
   justify-content: center;
   .localCity {
     text-align: center;
-    padding: 15px;
+    margin: 20px;
   }
   .localHotel {
     text-align: center;
@@ -54,4 +54,11 @@
   .placeNote {
     font-size: .9em;
   }
+}
+
+.importantNote {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Merienda', cursive;
+  color: $sangria;
 }
