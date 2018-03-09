@@ -3,12 +3,7 @@ import {Router, Route, Link, IndexRoute, browserHistory} from 'react-router'
 
 import './main.scss'
 
-import HotelInfo from './components/HotelInfo'
-import WhereTo from './components/WhereTo'
-import DummyRSVP from './components/DummyRSVP'
-import Invitation from './components/Invitation'
-import Transportation from './components/Transportation'
-import About from './components/About'
+import MainPage from './containers/MainPage'
 
 const App = props => {
   return(
@@ -16,27 +11,7 @@ const App = props => {
     <Router history={browserHistory}>
       <Route
         path='/'
-        component={WhereTo}
-      />
-      <Route
-        path='/wedding/invitation'
-        component={Invitation}
-      />
-      <Route
-        path='/wedding/checkbacksoon'
-        component={DummyRSVP}
-      />
-      <Route
-        path='/wedding/location'
-        component={HotelInfo}
-      />
-      <Route
-        path='/wedding/transportation'
-        component={Transportation}
-      />
-      <Route
-        path='/coolsite!'
-        component={About}
+        component={MainPage}
       />
     </Router>
   )

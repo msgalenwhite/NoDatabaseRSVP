@@ -5,8 +5,8 @@ body {
 }
 
 .page {
-  padding: 30px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   background-color: $light-nude;
   min-height: 100vh;
 }
@@ -24,7 +24,6 @@ body {
   text-align: center;
   font-size: 2em;
   font-family: 'Merienda', cursive;
-  color: $sangria;
 }
 
 .title {
@@ -41,8 +40,23 @@ body {
 .center {
   text-align: center;
 }
-.date {
-  color: $sangria;
+
+// INPUTS
+textarea {
+  width: 80%;
+  min-height: 100px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=text], input[type=textarea] {
+  background-color: $lighter-nude;
+  border: 2px solid $dark-sangria;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 // BUTTONS
@@ -61,23 +75,48 @@ body {
   background-color: $sangria;
 }
 
-// LINKS
+// RSVP SUMMARY
+.diet {
+  text-align: center;
+}
+
+.rsvp-summary {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+// STORY
+.story {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.finished-story {
+  justify-content: center;
+}
+
+.finished-story-text {
+  border-radius: 10px;
+  background-color: $lighter-nude;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  font-size: 0.8em;
+}
+
+// Links
 a {
-color: $sangria;
-font-weight: bold;
-text-decoration: none;
+  color: $sangria;
+  font-weight: bold;
+  text-decoration: none;
 }
 a:hover {
   font-size: 1.1em;
 }
 
-// SIGNATURE
-.signature {
-  text-align: right;
-  font-size: 2em;
-  font-family: 'Merienda', cursive;
-  color: $sangria;
-}
-.blog {
-  line-height: 1.4em;
+.fa-arrow-alt-left {
+  font-size: 50px;
+  color: black;
 }
